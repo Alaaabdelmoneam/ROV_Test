@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find uuv_gazebo_worlds)/launch/empty_underwater_world.launch"/>
+    <include file="$(find uuv_descriptions)/launch/upload_rexrov_default.launch"/>
+    <include file="$(find uuv_control_cascaded_pid)/launch/joy_velocity.launch">
+      <arg name="uuv_name" value="rexrov"/>
+      <arg name="model_name" value="rexrov"/>
+      <arg name="joy_id" value="0"/>
+    </include>
+</launch>

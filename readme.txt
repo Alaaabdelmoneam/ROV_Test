@@ -1,6 +1,5 @@
 issues_to_be_solved:
-	**template scripts to be updated after ros bridge communication
-	**Gazebo simulation for industrial robot with 2 cameras, 8 thrusters
+	**Gazebo simulation for industrial robot with 3 cameras, 8 thrusters
 	**PID controller needs more resarch, arrising error of launching the same node that controls the thrusters twice in the package
 	**some research needed in gazebo environment,3dfiles dynamic properties
 to launch gazebo_uuv, run the following commands:
